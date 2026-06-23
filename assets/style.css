@@ -224,3 +224,110 @@ font-weight: 500;
 .text p {
 font-weight: 500;
 }
+
+/* 記事ページをnote寄せにする */
+body {
+background: #ffffff;
+color: #111111;
+}
+
+.site-header {
+max-width: 700px;
+padding: 30px 30px 18px;
+}
+
+.site-header h1 {
+font-size: 1.05rem;
+font-weight: 700;
+letter-spacing: 0.03em;
+}
+
+.site-header p {
+font-size: 0.88rem;
+color: #666666;
+}
+
+main {
+max-width: 700px;
+padding: 0 30px 88px;
+}
+
+.work {
+max-width: 100%;
+margin: 34px auto 0;
+padding: 0;
+background: transparent;
+border: none;
+border-radius: 0;
+}
+
+.category {
+margin: 0 0 28px;
+color: #777777;
+font-size: 0.9rem;
+}
+
+.work h2 {
+margin: 0 0 58px;
+color: #111111;
+font-size: 1.75rem;
+font-weight: 700;
+line-height: 1.55;
+letter-spacing: 0.02em;
+}
+
+.text {
+max-width: 100%;
+margin: 0;
+color: #111111;
+font-size: 1.08rem;
+font-weight: 400;
+line-height: 2.12;
+letter-spacing: 0.01em;
+}
+
+.text p {
+margin: 0 0 2.25em;
+color: #111111;
+font-weight: 400;
+}
+
+.back {
+max-width: 700px;
+margin: 56px auto 0;
+padding: 0 30px;
+color: #555555;
+}
+
+@media (max-width: 600px) {
+.site-header {
+padding: 28px 30px 16px;
+}
+
+main {
+padding: 0 30px 80px;
+}
+
+.work {
+margin-top: 36px;
+}
+
+.work h2 {
+margin-bottom: 56px;
+font-size: 1.72rem;
+line-height: 1.55;
+}
+
+.text {
+font-size: 1.08rem;
+line-height: 2.14;
+}
+
+.text p {
+margin-bottom: 2.3em;
+}
+
+.back {
+padding: 0 30px;
+}
+}
