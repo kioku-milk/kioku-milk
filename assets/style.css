@@ -1,0 +1,147 @@
+:root {
+--bg: #f7f3ea;
+--text: #1d1a17;
+--muted: #77706a;
+--line: #d8d0c4;
+}
+
+* {
+  box-sizing: border-box;
+  }
+
+body {
+margin: 0;
+padding: 48px 20px 80px;
+background: var(--bg);
+color: var(--text);
+font-family:
+"Yu Mincho",
+"Hiragino Mincho ProN",
+"Noto Serif JP",
+serif;
+line-height: 2.05;
+letter-spacing: 0.03em;
+}
+
+a {
+color: inherit;
+text-decoration: none;
+border-bottom: 1px solid var(--line);
+}
+
+a:hover {
+border-bottom-color: var(--text);
+}
+
+.site-header {
+max-width: 720px;
+margin: 0 auto 64px;
+}
+
+.site-header h1 {
+margin: 0;
+font-size: 1.35rem;
+font-weight: 400;
+letter-spacing: 0.12em;
+}
+
+.site-header p {
+margin-top: 12px;
+color: var(--muted);
+font-size: 0.9rem;
+}
+
+main {
+max-width: 720px;
+margin: 0 auto;
+}
+
+section {
+margin: 56px 0;
+}
+
+h2 {
+margin: 0 0 24px;
+font-size: 1rem;
+font-weight: 400;
+letter-spacing: 0.16em;
+}
+
+.intro {
+color: var(--muted);
+}
+
+.post-list {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.post-list li {
+display: flex;
+justify-content: space-between;
+gap: 24px;
+padding: 12px 0;
+border-bottom: 1px solid var(--line);
+}
+
+.post-list span {
+color: var(--muted);
+font-size: 0.85rem;
+white-space: nowrap;
+}
+
+.work {
+max-width: 620px;
+}
+
+.category {
+color: var(--muted);
+font-size: 0.85rem;
+}
+
+.work h2 {
+margin-bottom: 56px;
+font-size: 1.2rem;
+}
+
+.text p {
+margin: 0 0 1.8em;
+}
+
+.back {
+margin-top: 72px;
+color: var(--muted);
+font-size: 0.9rem;
+}
+
+footer {
+max-width: 720px;
+margin: 96px auto 0;
+padding-top: 24px;
+border-top: 1px solid var(--line);
+color: var(--muted);
+font-size: 0.9rem;
+}
+
+footer nav {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+body {
+padding-top: 36px;
+line-height: 2;
+}
+
+.post-list li {
+display: block;
+}
+
+.post-list span {
+display: block;
+margin-top: 4px;
+}
+}
