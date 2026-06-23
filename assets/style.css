@@ -206,3 +206,21 @@ display: block;
 margin-top: 4px;
 }
 }
+
+body {
+color: #111111;
+}
+
+.work,
+.text,
+.text p {
+color: #111111;
+}
+
+.text {
+font-weight: 500;
+}
+
+.text p {
+font-weight: 500;
+}
