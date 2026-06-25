@@ -451,7 +451,7 @@ margin-bottom: 3.2em;
 }
 /* 記事末尾から「戻る」までの余白 */
 .back {
-margin-top: 96px;
+margin-top: 128px;
 }
 
 @media (max-width: 600px) {
