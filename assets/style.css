@@ -508,3 +508,11 @@ margin-top: 88px;
 .alphabet + .back {
   margin-top: 0;
 }
+
+.post-list .first-published {
+  display: block;
+  margin-top: 0.5em;
+  text-align: right;
+  color: #777;
+  font-size: 0.9rem;
+}
