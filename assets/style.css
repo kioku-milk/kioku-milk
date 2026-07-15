@@ -499,3 +499,12 @@ margin-top: 88px;
   line-height: 1.4;
   color: #222;
 }
+
+/* アルファベット：初出日と「戻る」の間隔 */
+.alphabet {
+  margin-bottom: 5em;
+}
+
+.alphabet + .back {
+  margin-top: 0;
+}
