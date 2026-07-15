@@ -459,3 +459,20 @@ margin-top: 128px;
 margin-top: 88px;
 }
 }
+
+.published-date {
+  margin: -1em 0 3em;
+  color: #777;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.copyright-notice {
+  max-width: 640px;
+  margin: 0 auto 2em;
+  padding: 0 1.5em;
+  color: #777;
+  font-size: 0.78rem;
+  line-height: 1.9;
+  text-align: center;
+}
