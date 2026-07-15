@@ -509,9 +509,19 @@ margin-top: 88px;
   margin-top: 0;
 }
 
-.post-list .first-published {
+/* 旧稿の表示 */
+.post-list li.old-work {
+  text-align: right;
+}
+
+.post-list li.old-work > a {
   display: block;
-  margin-top: 0.5em;
+  text-align: right;
+}
+
+.post-list li.old-work .first-published {
+  display: block;
+  margin-top: 0.55em;
   text-align: right;
   color: #777;
   font-size: 0.9rem;
