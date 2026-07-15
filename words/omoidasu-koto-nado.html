@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>思い出すことなど｜記憶喪失のミルク</title>
+
+  <meta
+    name="description"
+    content="エミリー・ディキンソンの詩と、若い頃の記憶、出張先で見つけた小さな虫についての散文。"
+  >
+  <meta name="author" content="南雲">
+  <meta name="keywords" content="散文,エミリー・ディキンソン,文学,随筆">
+
+  <link
+    rel="canonical"
+    href="https://kioku-milk.github.io/kioku-milk/omoidasu-koto-nado.html"
+  >
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="思い出すことなど">
+  <meta
+    property="og:description"
+    content="エミリー・ディキンソンの詩と、若い頃の記憶、出張先で見つけた小さな虫についての散文。"
+  >
+  <meta
+    property="og:url"
+    content="https://kioku-milk.github.io/kioku-milk/omoidasu-koto-nado.html"
+  >
+  <meta property="og:site_name" content="記憶喪失のミルク">
+  <meta name="twitter:card" content="summary">
+
+  <style>
+    :root {
+      --background: #f8f7f3;
+      --paper: #fffefb;
+      --text: #272622;
+      --subtext: #74716a;
+      --line: #dedbd2;
+      --link: #4c5d64;
+      --max-width: 720px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family:
+        "Yu Mincho",
+        "YuMincho",
+        "Hiragino Mincho ProN",
+        "Hiragino Mincho Pro",
+        "Noto Serif JP",
+        serif;
+      font-size: 17px;
+      line-height: 2.05;
+      letter-spacing: 0.035em;
+      overflow-wrap: break-word;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.22em;
+    }
+
+    a:hover {
+      text-decoration-thickness: 2px;
+    }
+
+    .site-header {
+      padding: 24px 20px 20px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .site-header__inner {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .site-title {
+      margin: 0;
+      font-family:
+        "Yu Gothic",
+        "YuGothic",
+        "Hiragino Kaku Gothic ProN",
+        sans-serif;
+      font-size: 0.88rem;
+      font-weight: 500;
+      letter-spacing: 0.16em;
+    }
+
+    .site-title a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 64px 20px 80px;
+    }
+
+    article {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 54px 54px 48px;
+      background: var(--paper);
+      border: 1px solid rgba(222, 219, 210, 0.7);
+      box-shadow: 0 14px 42px rgba(40, 38, 32, 0.045);
+    }
+
+    .article-header {
+      margin-bottom: 54px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.65rem, 5vw, 2.15rem);
+      font-weight: 500;
+      line-height: 1.55;
+      letter-spacing: 0.12em;
+    }
+
+    .article-meta {
+      margin-top: 20px;
+      color: var(--subtext);
+      font-family:
+        "Yu Gothic",
+        "YuGothic",
+        "Hiragino Kaku Gothic ProN",
+        sans-serif;
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+    }
+
+    .article-body p {
+      margin: 0 0 1.65em;
+    }
+
+    .article-body p:last-child {
+      margin-bottom: 0;
+    }
+
+    .poem {
+      margin: 2.8em auto;
+      padding: 0 0 0 1.6em;
+      border-left: 2px solid var(--line);
+      color: #383630;
+      font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+      font-size: 0.98rem;
+      line-height: 1.85;
+      letter-spacing: 0.015em;
+    }
+
+    .poem p {
+      margin: 0;
+    }
+
+    .break {
+      display: block;
+      height: 1.25em;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 52px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+      font-family:
+        "Yu Gothic",
+        "YuGothic",
+        "Hiragino Kaku Gothic ProN",
+        sans-serif;
+      font-size: 0.76rem;
+    }
+
+    .tag {
+      padding: 4px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--subtext);
+      text-decoration: none;
+    }
+
+    .tag:hover {
+      color: var(--text);
+      border-color: #aaa69b;
+    }
+
+    .article-nav {
+      max-width: var(--max-width);
+      margin: 34px auto 0;
+      font-family:
+        "Yu Gothic",
+        "YuGothic",
+        "Hiragino Kaku Gothic ProN",
+        sans-serif;
+      font-size: 0.83rem;
+    }
+
+    .article-nav a {
+      text-decoration: none;
+    }
+
+    .site-footer {
+      padding: 28px 20px 40px;
+      color: var(--subtext);
+      text-align: center;
+      font-family:
+        "Yu Gothic",
+        "YuGothic",
+        "Hiragino Kaku Gothic ProN",
+        sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        font-size: 16px;
+        line-height: 2;
+      }
+
+      main {
+        padding: 28px 12px 56px;
+      }
+
+      article {
+        padding: 42px 22px 38px;
+        box-shadow: none;
+      }
+
+      .article-header {
+        margin-bottom: 42px;
+      }
+
+      .poem {
+        margin: 2.4em 0;
+        padding-left: 1em;
+        font-size: 0.92rem;
+        overflow-x: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <p class="site-title">
+        <a href="./index.html">記憶喪失のミルク</a>
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <header class="article-header">
+        <h1>思い出すことなど</h1>
+
+        <!-- 公開日を入れる場合は、下の日付を書き換えてください -->
+        <p class="article-meta">
+          <time datetime="2026-07-13">2026年7月13日</time>
+        </p>
+      </header>
+
+      <div class="article-body">
+        <p>
+          エミリー・ディキンソンの詩の中で、一番に思い浮かぶのはこれだろう。
+        </p>
+
+        <blockquote class="poem" lang="en">
+          <p>
+            If I can stop one heart from breaking,<br>
+            I shall not live in vain;<br>
+            If I can ease one life the aching,<br>
+            Or cool one pain,<br>
+            Or help one fainting robin<br>
+            Unto his nest again,<br>
+            I shall not live in vain.
+          </p>
+        </blockquote>
+
+        <p>
+          一行目によって「If I can stop one heart from breaking」と呼ばれる詩で、明るいところに立つホイットマンの輝きではなく、窓の外を見る者の渇きとして、この詩は私の身のうちに浸潤した。己を無価値だと打ちひしがれたことのない者は少ないだろうが、長いあいだ、その思いに打ちのめされてきた者の言葉としてこの詩は私に映った。
+        </p>
+
+        <p>
+          窓の外の景色に目をやり、また部屋の奥へと帰る。世界は広がっているが、私はこの狭い世界に暮らしている。
+        </p>
+
+        <p>
+          憐憫ではなく救済として私はこの詩を読んだ。<br>
+          エミリーが紡ぐ自身の救済として。<br>
+          無価値に思える私の生へ、一筋の希望を照らす言葉として。
+        </p>
+
+        <p>
+          手をはたかれるのには慣れてはいたが、手をはたかれるのを喜ぶ人間はいない。
+        </p>
+
+        <p>
+          はたかれたとして決して怒らず、口元にアルカイックな笑みさえ浮かべ、そのそばを通り過ぎる。
+        </p>
+
+        <p>
+          私が私にとどまるにはあまりに脆くできているから、他人事のように扱う。
+        </p>
+
+        <p>
+          地面から起き上がったあとに、空の青さに感銘を覚えているうちはまだ大丈夫だと思うような、痴呆のような幸福の中に生きていた若い時分にこの詩に出会い、さまざまな角度から眺めていたが、そのうち飽きて本棚にしまった詩の一つである。
+        </p>
+
+        <span class="break" aria-hidden="true"></span>
+
+        <p>
+          弱ったロビンを巣に戻すことができれば私の人生は無駄にはならないだろうとエミリーが記し、しかし、私はロビンも、私も、何も救わなかった。
+        </p>
+
+        <p>
+          ところで、先日、出張先の仕事場の客席で、私はブースのそばを這う一匹の小さい虫を目に止めた。そこは、虫が生活するにはあまりに渇いた環境だった。生きて欲しいと思った。私は客の目を盗んで虫を拾い上げると手のひらに隠し、三階の部屋から階段をしずかに駆け下り、出入り口を出た先にある街路樹のたもとに、もう戻ってくるなよとその小さな命を放った。いらぬことをしたなと思い、家族にすら話さなかったのを覚えている。
+        </p>
+      </div>
+
+      <footer class="tags" aria-label="記事のタグ">
+        <span class="tag">#散文</span>
+        <span class="tag">#エミリーディキンソン</span>
+      </footer>
+    </article>
+
+    <nav class="article-nav" aria-label="ページナビゲーション">
+      <a href="./index.html">← 記事一覧へ戻る</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <small>&copy; 2026 記憶喪失のミルク</small>
+  </footer>
+</body>
+</html>
