@@ -562,3 +562,22 @@ body .work > h2 {
   text-align: center;
 }
 
+/* タイトルと日付の間隔を固定 */
+.work > h2 + .article-date {
+  margin-top: 0 !important;
+}
+
+.work > h2:has(+ .article-date) {
+  margin-bottom: 1.2em !important;
+  padding-bottom: 0 !important;
+}
+
+.work > .article-date {
+  margin-bottom: 3.8em !important;
+  color: #777;
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  text-align: center;
+}
