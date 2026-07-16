@@ -515,7 +515,7 @@ margin-top: 88px;
 }
 
 .post-list li.old-work > a {
-  display: block;
+  display: inline-block;
   text-align: right;
 }
 
