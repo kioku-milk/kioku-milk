@@ -547,3 +547,18 @@ body .work > h2 {
   letter-spacing: 0.08em;
   line-height: 1.45;
 }
+
+/* 日付を伴う記事タイトル */
+.work > h2.has-date {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.work > h2.has-date + .article-date {
+  margin: 1.2em 0 4em;
+  color: #777;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  text-align: center;
+}
