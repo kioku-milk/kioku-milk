@@ -530,3 +530,17 @@ body .work > h2 {
   letter-spacing: 0.08em;
   line-height: 1.45;
 }
+
+/* 全作品共通：記事タイトル */
+.work > h2 {
+  font-family:
+    "Yu Mincho",
+    "YuMincho",
+    "Hiragino Mincho ProN",
+    "Hiragino Mincho Pro",
+    serif;
+
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  line-height: 1.45;
+}
