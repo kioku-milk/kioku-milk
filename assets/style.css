@@ -257,12 +257,22 @@ body > footer nav {
   line-height: 1;
   letter-spacing: 0;
 }
-/* 詩の末尾に余韻を残す */
-.work {
-  padding-bottom: 5rem;
+.poetry-body {
+  font-size: 1rem;
+  line-height: 2.15;
+  letter-spacing: 0.03em;
 }
 
-/* 作品とナビゲーションを明確に分離 */
-.back {
-  margin: 2.5rem 0 7rem;
+.poetry-body p {
+  margin: 0;
+}
+
+.poetry-body br {
+  line-height: 2.15;
+}
+
+.poetry-body::after {
+  content: "";
+  display: block;
+  height: 4rem;
 }
