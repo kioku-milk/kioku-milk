@@ -257,3 +257,11 @@ body > footer nav {
   line-height: 1;
   letter-spacing: 0;
 }
+/* 詩の終わりに余韻を残す */
+.work .poem {
+  margin-bottom: 5rem;
+}
+
+.work .back {
+  margin-top: 0;
+}
